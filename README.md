@@ -38,4 +38,6 @@ hi_helpful_df = filter_home_improve_df.filter((filter_home_improve_df.helpful_vo
     <img src="images/d2_step5_5star_percents.png" width="50%" height = "20%">
 
 ## Summary
+The results indicate that those who leave reviews through Vine have a 2% higher 5-star rating (46.8%) than those who post reviews without the service. It is plausible that a 2% variance is due to bias, but the small difference does not compel the research office to conclude Vine reviews are biased. However, this analysis contains no statistical analysis, and the Vine reviews are less than 1% of the total reviews (267/41,458).
 
+Further analysis to determine validity of bias should include a multiple linear regression analysis.
