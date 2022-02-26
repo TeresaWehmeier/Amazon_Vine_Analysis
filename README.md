@@ -6,3 +6,4 @@ The research department of SellBy has been asked to reserch reviews from Amazon 
 "Vine invites the most trusted reviewers on Amazon to post opinions about new and pre-release items to help their fellow customers make informed purchase decisions. Amazon invites customers to become Vine Voices based on their reviewer rank, which is a reflection of the quality and helpfulness of their reviews as judged by other Amazon customers. Amazon provides Vine members with free products that have been submitted to the program by participating vendors. Vine reviews are the independent opinions of the Vine Voices. The vendor cannot influence, modify or edit the reviews." (Source: <a href="https://www.amazon.com/vine/about">See about page</a>.)
 
 ## Results
+The DataFrames and counts needed to compare Vine paid reviews to non-paid reviews were compiled using PySpark in Google Colaboratory. The ipynb file is available <a href = "Vine_Review_Analysis.ipynb">here</a>.
