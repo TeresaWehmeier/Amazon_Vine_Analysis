@@ -23,21 +23,21 @@ hi_helpful_df = filter_home_improve_df.filter((filter_home_improve_df.helpful_vo
 
 3. Filter the data to return only Vine reviews
 
-```paid_df = filter_home_improve_df.filter(hi_helpful_df.vine == 'Y')```
+```paid_df = hi_helpful_df.filter(hi_helpful_df.vine == 'Y')```
 
 4. Filter the data to return only non-Vine reviews
 
-```no_paid_df = filter_home_improve_df.filter(hi_helpful_df.vine == 'N')```
+```no_paid_df = hi_helpful_df.filter(hi_helpful_df.vine == 'N')```
 
-5. Total number of reviews is 41,458, and total 5-star reviews is 18,588 as seen below:
+5. Total number of reviews is 39,095, and total 5-star reviews is 18,371 as seen below:
 
     <img src="images/d2_step5_total_reviews_total_5stars.png" width="50%" height = "20%">
 
-6. Percent of 5-star Vine paid reviews is 46.8% and for non-paid reviews is 44.8% as seen below:
+6. Percent of 5-star Vine paid reviews is 47% and for non-paid reviews is 47% as seen below:
 
     <img src="images/d2_step5_5star_percents.png" width="50%" height = "20%">
 
 ## Summary
-The results indicate that those who leave reviews through Vine have a 2% higher 5-star rating (46.8%) than those who post reviews without the service. It is plausible that a 2% variance is due to bias, but the small difference does not compel the research office to conclude Vine reviews are biased. However, this analysis contains no statistical analysis, and the Vine reviews are less than 1% of the total reviews (267/41,458).
+The results indicate that those who leave 5-star reviews through Vine are no different than those who post reviews without the service, and cannot be interpreted as biased. However, this analysis contains no statistical analysis, and the Vine reviews are less than 1% of the total reviews (267/41,458), so further research is recommended.
 
-Further analysis to determine validity of bias should include a multiple linear regression analysis.
+Further analysis to determine validity of bias should include a multiple linear regression analysis with paid and non-paid independent variables.
