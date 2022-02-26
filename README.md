@@ -31,11 +31,11 @@ hi_helpful_df = filter_home_improve_df.filter((filter_home_improve_df.helpful_vo
 
 5. Total number of reviews is 41,458, and total 5-star reviews is 18,588 as seen below:
 
-<img src="images/d2_step5_total_reviews_total_5stars.png" width="50%" height = "20%">
+    <img src="images/d2_step5_total_reviews_total_5stars.png" width="50%" height = "20%">
 
 6. Percent of 5-star Vine paid reviews is 46.8% and for non-paid reviews is 44.8% as seen below:
 
-<img src="images/d2_step5_5star_percents.png" width="50%" height = "20%">
+    <img src="images/d2_step5_5star_percents.png" width="50%" height = "20%">
 
 ## Summary
 
