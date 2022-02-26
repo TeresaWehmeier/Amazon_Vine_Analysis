@@ -12,8 +12,8 @@ The DataFrames and counts needed to compare Vine paid reviews to non-paid review
 1. Filter the data to retrieve all rows where total_votes >=20
 
     ```
-    filter_home_improve_df = home_improve_df.filter(home_improve_df.total_votes>=20).select(['review_id','star_rating','helpful_votes','total_votes','vine','verified_purchase'])
-    
+    filter_home_improve_df = home_improve_df.filter(home_improve_df.total_votes>=20)
+    .select(['review_id','star_rating','helpful_votes','total_votes','vine','verified_purchase'])
     ```
 2. Filter the total votes to those where helpful_votes divided by total_votes >=50%
 
