@@ -38,6 +38,6 @@ hi_helpful_df = filter_home_improve_df.filter((filter_home_improve_df.helpful_vo
     <img src="images/d2_step5_5star_percents.png" width="50%" height = "20%">
 
 ## Summary
-The results indicate that those who leave 5-star reviews through Vine are no different than those who post reviews without the service, and cannot be interpreted as biased. However, this analysis contains no statistical analysis, and the Vine reviews are less than 1% of the total reviews (267/41,458), so further research is recommended.
+The results indicate that those who leave 5-star reviews through Vine are no different than those who post reviews without the service, and cannot be interpreted as biased. However, this analysis contains no statistical analysis, and the Vine reviews are less than 1% of the total reviews (266/39,095), so further research is recommended.
 
 Further analysis to determine validity of bias should include a multiple linear regression analysis with paid and non-paid independent variables.
